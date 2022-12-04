@@ -6,10 +6,10 @@ const outputBox = document.querySelector("#output-box");
 
 function comapareValues(sum,luckyNumber){
     if(sum == luckyNumber){
-        console.log("Your birthday is lucky");
+       outputBox.value = "Your birthday is lucky";
     }
     else{
-        console.log("your birthday is not lucky");
+       outputBox.value = "your birthday is not lucky";
     }
 }
 
