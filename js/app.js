@@ -29,6 +29,4 @@ function calculateSum(dob){
     }
   }
 
-checkNumberBtn.addEventListener("click",function getValues(){
-
-} )
+checkNumberBtn.addEventListener("click",checkBirthdateIsLucky)
