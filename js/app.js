@@ -4,6 +4,15 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberBtn = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
 
+function comapareValues(sum,luckyNumber){
+    if(sum == luckyNumber){
+        console.log("Your birthday is lucky");
+    }
+    else{
+        console.log("your birthday is not lucky");
+    }
+}
+
 function checkBirthdateIsLucky(){
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
