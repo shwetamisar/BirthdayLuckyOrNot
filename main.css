@@ -1,0 +1,17 @@
+:root{
+    --primary-orange :#ea580c;
+    --primary-white : #86198f;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+input,label{
+    display: block;
+}
