@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 :root{
-    --primary-orange :#ea580c;
-    --primary-white : #86198f;
+    --primary-orange :#fca5a5;
+    --primary-purple : #701a75;
+}
+body{
+     background-color: var(--primary-orange);
+    color: var(--primary-purple);
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
     text-align: center;
+    margin: 2rem;
 }
 
 .container{
+    
     width: 50%;
     margin: auto;
 }
 
 input,label{
     display: block;
+}
+
+label{
+    font-weight: bold;
+}
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 12px 18px;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: var(--primary-purple);
+    border-color: var(--primary-purple); 
+    font-size: large;
+    border-width: medium;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+} 
+#output-box{
+    font-weight: bold;
 }
