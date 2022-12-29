@@ -2,6 +2,7 @@
 :root{
     --primary-orange :#fca5a5;
     --primary-purple : #701a75;
+   
 }
 body{
      background-color: var(--primary-orange);
@@ -46,5 +47,11 @@ input{
     border-radius: 0.5rem;
 } 
 #output-box{
+    font-weight: bold;
+    text-align: center;
+}
+#displayNote{
+    text-align: center;
+    color: black;
     font-weight: bold;
 }
